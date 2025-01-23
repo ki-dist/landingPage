@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="form.css" />
+    
+  </head>
+  <body>
+    <form action="#" method="post" class="formbtn">
+    <button type="submit" class="btnreg">Register</button>
+    <button type="submit" class="btnreg">Login</button>
+</form>
+    <form action="#" method="post" class="form">
+      <label for="register-options">or Register with</label>
+      <div class="icon-buttons">
+        <button class="icon-button" id="google" name="google">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Icon" />
+        </button>
+        <button class="icon-button" id="apple" name="apple">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Icon" />
+        </button>
+        <button class="icon-button" id="facebook" name="facebook">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon" />
+        </button>
+      </div>
+
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <label for="email">Email*</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label for="password">Password*</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Create password"
+        required
+      />
+      <p>Must be of 8 characters</p>
+
+      <button type="submit" class="btn">Get started</button>
+    </form>
+    <p class="terms">By continuing you agree to our <a href="#">Terms & Conditions</a></p>
+  </body>
+</html>
