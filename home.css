@@ -51,7 +51,7 @@ nav a.active {
 }
 
 .register-btn {
-    background-color: #013601;
+    background-color: #013123;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -59,9 +59,7 @@ nav a.active {
     transition: background-color 0.3s;
 }
 
-.register-btn:hover {
-    background-color: #012c01;
-}
+
 
 .hero {
     text-align: center;
@@ -80,7 +78,7 @@ nav a.active {
 }
 
 .hero .highlight {
-    color: #001f00;
+    color: #025a02;
     font-weight: bold;
 }
 
@@ -92,21 +90,18 @@ nav a.active {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #001600;
-    color: #fff;
+    
     text-decoration: none;
     border-radius: 8px;
     font-size: 16px;
     transition: background-color 0.3s;
 }
 
-.cta-buttons a:hover {
-    background-color: #001600;
-}
+
 
 .banner {
     text-align: center;
-    background-color: white;
+    background-color: rgb(245, 240, 240);
     padding: 20px;
     margin-top: 0%;
 }
@@ -118,5 +113,18 @@ nav a.active {
 .icon2 {
     width: 30%; 
     height: auto; 
+}
+.btnregtoP {
+    background-color: white;
+    color: #023828; 
+    border: 1px solid #023828; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+.btnregF{
+    background-color:#023828;
+    color: #eef3f0;
 }
 
